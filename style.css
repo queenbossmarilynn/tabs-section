@@ -2,8 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: #f5abc9;
-    color:grey;
+    background: #000000;
+    color:whitesmoke;
 }
 
 img {
@@ -28,7 +28,7 @@ img {
 }
 
 .tabs {
-    background: #ffe5e2;
+    background: #dc5f00;
     border-radius: 0.5rem;
     grid-template-rows: auto 1fr;
   }
@@ -37,7 +37,7 @@ img {
     padding: 1rem 0;
     border: none;
     font-size: 1rem;
-    background: #b6c9f0;
+    background: #cf0a0a;
     cursor: pointer;
     transition: all .3s linear;
     letter-spacing: .25rem;
@@ -85,5 +85,5 @@ img {
 }
 
 .button.live {
-    background:#ffe5e2;
+    background:#dc5f00;
 }
