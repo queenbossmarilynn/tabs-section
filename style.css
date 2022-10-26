@@ -56,7 +56,7 @@ img {
     border-top-right-radius: .5rem;
 }
 
-.button:hover {
+.button:hover:not(.live){
     background: #ff0000;
     color: white;
 }
@@ -74,4 +74,16 @@ img {
         grid-template-columns: 1fr 1fr;
         column-gap: 2rem;
     }
+}
+
+.content {
+    display: none;
+}
+
+.content.live {
+    display: block;
+}
+
+.button.live {
+    background:#ffe5e2;
 }
