@@ -16,20 +16,21 @@
         </div>
         <div class="tabs">
             <div class="btn-container">
-                <button class="button live">Step 1</button>
-                <button class="button">Step 2</button>
-                <button class="button">Step 3</button>
+                <button class="button live" data-id="step1">Step 1</button>
+                <button class="button" data-id="step2">Step 2</button>
+                <button class="button" data-id="step3">Step 3</button>
             </div>
             <div class="tabs-content">
-                <div class="content">
+                <!-- Live creates it to be the default the user sees -->
+                <div class="content live" id="step1">
                     <h3>Step 1</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident illum nesciunt magni maiores cumque ratione iusto voluptatum quia, ipsum corrupti incidunt nam recusandae voluptates possimus autem eligendi reprehenderit id? Id.</p>
                 </div>
-                <div class="content live">
+                <div class="content" id="step2">
                     <h3>Step 2</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident illum nesciunt magni maiores cumque ratione iusto voluptatum quia, ipsum corrupti incidunt nam recusandae voluptates possimus autem eligendi reprehenderit id? Id.</p>
                 </div>
-                <div class="content">
+                <div class="content" id="step3">
                     <h3>Step 3</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident illum nesciunt magni maiores cumque ratione iusto voluptatum quia, ipsum corrupti incidunt nam recusandae voluptates possimus autem eligendi reprehenderit id? Id.</p>
                 </div>
